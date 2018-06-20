@@ -1,0 +1,12 @@
+1) Create a new folder from any name at your favourite location in your system.
+   And nevigate to that folder using terminal/cmd/git bash.
+2)   In your terminal/cmd/git bash execute following command: git init
+3) Now create a new git command.txt inside your folder and open it in a text editor.
+4) Write git command and their function in that file and save it.
+  Go back to your terminal/cmd/git bash and execute following command: git add .
+
+5) git commit -m"my first git command";
+6)  Now go to github and create a new account or login.
+7)  Create a new project/repository at github with any name copy the address of newly created project/repository.
+8)  Come back to your terminal/cmd/git bash again and execute the following command: git remote add origin"remote repository address"
+9)  Finally upload your project/repository to github by executing following command: git push -u origin master.
